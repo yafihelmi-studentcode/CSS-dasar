@@ -1,0 +1,6 @@
+body {
+    background-color: rgb(230, 230, 230);
+    background-image: url(gambar/4.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+}
