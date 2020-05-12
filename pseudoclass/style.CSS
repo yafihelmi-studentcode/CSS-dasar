@@ -1,0 +1,45 @@
+.hello:link {
+    color: orange;
+}
+
+.hello:hover {
+    font-family: Arial;
+    font-size: 20px;
+    color: rgb(136, 36, 0);
+}
+
+.hello:active {
+    font-style: italic;
+}
+
+.hello:visited {
+    color: peru;
+}
+
+li:first-child a {
+    color: gold;
+}
+
+li:nth-child(3) a {
+    color: grey;
+}
+
+li:nth-child(2n) a {
+    color: hotpink;
+}
+
+li:nth-child(odd) a:hover {
+    color: lawngreen;
+}
+
+li:nth-child(even) a:hover {
+    color: yellow;
+}
+
+p:first-of-type {
+    color: darkred;
+}
+
+p:last-of-type {
+    color: darksalmon;
+}
